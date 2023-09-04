@@ -1,0 +1,17 @@
+ 
+Here we land in this page.
+![alt text](https://github.com/skrytify/CTF_Writeups/blob/main/Images/Screenshot%202023-09-04%20195357.png?raw=true)
+When we click on the red area URL changed to something else.
+ 
+So I tried something else like “test”.
+ 
+Here we can see it has displayed something new. Then I started thinking what can I do.
+After a time, I thought of getting web shell. 
+Parameter: ${system($_GET[cmd])}&cmd=ls
+And we got it.
+ 
+Here are the same files that we had downloaded earlier. 
+So I tried getting back on the directory. Using “ls ../”
+ 
+Here we can find a file name flag so let’s read it using cat.
+: cmd=cat ../ flagyE9AQ
