@@ -26,7 +26,7 @@ And we got it.
  
 Here are the same files that we had downloaded earlier. 
 
-So I tried getting back on the directory. Using “**ls ../**”
+So I tried getting back to pervious directory Using cmd : “**ls ../**”
 
 
  ![](https://github.com/skrytify/CTF_Writeups/blob/sub/HTB_LoveTok_Writeups./Images/Screenshot%202023-09-04%20200552.png)
